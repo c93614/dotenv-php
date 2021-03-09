@@ -1,0 +1,14 @@
+{
+    "name": "amumu/dotenv-php",
+    "description": "A optimize for vlucas/phpdotenv in PHP fastcgi application",
+    "license": "MIT",
+    "require": {
+        "php": "^5.4 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amumu\\Dotenv\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
