@@ -1,5 +1,5 @@
 <?php
-namespace Amumu\Dotenv;
+namespace Dotenv;
 
 class Dotenv {
     public static $data;
