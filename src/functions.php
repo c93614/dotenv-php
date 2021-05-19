@@ -10,7 +10,7 @@ if (!function_exists('env')) {
      */
     function env($key, $default = null)
     {
-		return array_get(\Amumu\Dotenv\Dotenv::$data, $key, $default);
+		return array_get(\Dotenv\Dotenv::$data, $key, $default);
     }
 }
 if (!function_exists('value')) {
